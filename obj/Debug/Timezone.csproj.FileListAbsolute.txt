@@ -1,0 +1,1 @@
+/Users/stuartbryce/codeclan_work/personal_party/Timezone-master/Timezone/obj/Debug/Timezone.csproj.CoreCompileInputs.cache
