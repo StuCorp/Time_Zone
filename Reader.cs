@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Reflection;
 
 namespace Timezone
 {
@@ -13,7 +14,8 @@ namespace Timezone
         {
             List<Tuple<string, string>> lReturn = new List<Tuple<string, string>>();
 
-            string[] fileParts = File.ReadAllText("Timezone.txt").Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
+            //Changed file path from Timezone.txt to absolute path
+            string[] fileParts = File.ReadAllText(@"/Users/stuartbryce/codeclan_work/personal_party/Timezone-master/Timezone/TimeZone.txt").Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
 
             foreach (string part in fileParts)
             {
