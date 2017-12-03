@@ -10,7 +10,7 @@ namespace Timezone
            //Retrieve the timezone data
             ReadOnlyCollection<TimeZoneInfo> zones = TimeZoneInfo.GetSystemTimeZones();
 
-            TimeZoneInfo timeZoneInfo = zones[0];
+            TimeZoneInfo timeZoneInfo = null;
 
             //Loop through timeszones until find our timezone
             //Return offset for timezone
