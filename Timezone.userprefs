@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="OffsetRetriever.cs">
     <Files>
       <File FileName="Reader.cs" Line="4" Column="19" />
-      <File FileName="OffsetRetriever.cs" Line="23" Column="45" />
+      <File FileName="OffsetRetriever.cs" Line="23" Column="18" />
       <File FileName="Program.cs" Line="45" Column="18" />
       <File FileName="Parser.cs" Line="14" Column="44" />
       <File FileName="IReader.cs" Line="10" Column="6" />

@@ -5,12 +5,12 @@ namespace Timezone
 {
     public class OffsetRetriever
     {
-        public TimeSpan Find(String timezone)
+        public TimeZoneInfo Find(String timezone)
         {
            //Retrieve the timezone data
             ReadOnlyCollection<TimeZoneInfo> zones = TimeZoneInfo.GetSystemTimeZones();
 
-            TimeSpan offset;
+            TimeZoneInfo timeZoneInfo = zones[0];
 
             //Loop through timeszones until find our timezone
             //Return offset for timezone
@@ -18,11 +18,11 @@ namespace Timezone
             {
                 if (zone.Id.Contains(timezone))
                 {
-                    offset = zone.BaseUtcOffset;
+                    timeZoneInfo = zone;
                     break; 
                 }
             }
-            return offset; 
+            return timeZoneInfo; 
 
         }
     }

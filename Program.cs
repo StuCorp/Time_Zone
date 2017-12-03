@@ -26,15 +26,15 @@ namespace Timezone
                     //Catch errors from incorrectly formatted times
                     try {
                         //Convert String time to TimeSpan
-                        TimeSpan time = TimeSpan.Parse(entry.Item1);
+                        DateTime time = DateTime.Parse(entry.Item1);
                         //Store timezone and retrieve its offset time from GMT
                         String timezone = entry.Item2;
-                        TimeSpan offset = retrv.Find(timezone); 
+                        TimeZoneInfo timeZoneInfo = retrv.Find(timezone); 
                         //Difference between GMT time and timezone time
-                        TimeSpan converted_time = time.Add(offset);
+                        //TimeSpan converted_time = time.Add(offset);
 
                         //Change converted_time calculation to below
-                        //DateTime cstTime = TimeZoneInfo.ConvertTimeFromUtc(timeUtc, cstZone);
+                        DateTime converted_time = TimeZoneInfo.ConvertTimeFromUtc(time, timeZoneInfo);
 
                         //Print info to console
                         Console.WriteLine("The time in the UK is {0} and the time in {1} is {2}", time, timezone, converted_time); 
