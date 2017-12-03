@@ -9,10 +9,9 @@ namespace Timezone
     class Parser : IParser
     {
         //adding implementation of DisplayTime as reqd by IParser interface
-        public void DisplayTime(string time, string timezone){
-            Console.WriteLine("The time in {0} is {1}", timezone, time);
-            //The time in the UK is { time}
-            //and the time in { timezone} is { converted time}
+        public void DisplayTime(string time, string timezone, string converted_time){
+            //The time in the UK is { time} and the time in { timezone} is { converted time}
+            Console.WriteLine("The time in the UK is {0} and the time in {1} is {2}", time, timezone, converted_time); 
         }
 
         internal void DisplayTime(Tuple<string, string> timezone)

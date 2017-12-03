@@ -1,20 +1,17 @@
 ﻿<Properties StartupConfiguration="{9AD31B2C-C6B3-42B0-AB97-B3462483BEBA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="OffsetRetriever.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Reader.cs" Line="4" Column="19" />
-      <File FileName="OffsetRetriever.cs" Line="23" Column="18" />
-      <File FileName="Program.cs" Line="45" Column="18" />
-      <File FileName="Parser.cs" Line="14" Column="44" />
+      <File FileName="Reader.cs" Line="25" Column="10" />
+      <File FileName="TimezoneRetriever.cs" Line="7" Column="6" />
+      <File FileName="Program.cs" Line="39" Column="31" />
+      <File FileName="Parser.cs" Line="13" Column="65" />
       <File FileName="IReader.cs" Line="10" Column="6" />
-      <File FileName="IParser.cs" Line="11" Column="25" />
-      <File FileName="Timezone.txt" Line="8" Column="14" />
+      <File FileName="IParser.cs" Line="11" Column="77" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/stuartbryce/codeclan_work/personal_party/Timezone-master/Timezone/Reader.cs" relfile="Reader.cs" line="27" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Timezone PreferredExecutionTarget="MonoDevelop.Default" />

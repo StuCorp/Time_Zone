@@ -3,9 +3,9 @@ using System.Collections.ObjectModel;
 
 namespace Timezone
 {
-    public class OffsetRetriever
+    public class TimezoneRetriever
     {
-        public TimeZoneInfo Find(String timezone)
+        public static TimeZoneInfo Find(String timezone)
         {
            //Retrieve the timezone data
             ReadOnlyCollection<TimeZoneInfo> zones = TimeZoneInfo.GetSystemTimeZones();

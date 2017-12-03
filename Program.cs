@@ -18,36 +18,33 @@ namespace Timezone
             {
                 List<Tuple<string, string>> lTimes = fileReader.Read();
 
-                OffsetRetriever retrv = new OffsetRetriever();
-
                 //Loop through each time-timezone pair 
                 foreach (Tuple<string, string> entry in lTimes)
                 {
-                    //Catch errors from incorrectly formatted times
+                    //Catch errors from incorrectly formatted times 
                     try {
-                        //Convert String time to TimeSpan
-                        DateTime time = DateTime.Parse(entry.Item1);
-                        //Store timezone and retrieve its offset time from GMT
-                        String timezone = entry.Item2;
-                        TimeZoneInfo timeZoneInfo = retrv.Find(timezone); 
-                        //Difference between GMT time and timezone time
-                        //TimeSpan converted_time = time.Add(offset);
-
-                        //Change converted_time calculation to below
-                        DateTime converted_time = TimeZoneInfo.ConvertTimeFromUtc(time, timeZoneInfo);
-
-                        //Print info to console
-                        Console.WriteLine("The time in the UK is {0} and the time in {1} is {2}", time, timezone, converted_time); 
+                      //Retrieve timezone  
+                        TimeZoneInfo timeZoneInfo = TimezoneRetriever.Find(entry.Item2);
+                                      
+                       //If timezone found, find converted time and display 
+                        if (timeZoneInfo != null)
+                        {
+                            DateTime time = DateTime.Parse(entry.Item1);
+                            String converted_time = Convert.ToString(TimeZoneInfo.ConvertTimeFromUtc(time, timeZoneInfo));
+                            //Print info to console
+                            timeZoneParser.DisplayTime(entry.Item1, entry.Item2, converted_time);
+                        }
+                        else {
+                            //If no timezone found
+                            Console.WriteLine("Error: Timezone not found");
+                        }
                     } 
-                    catch(FormatException e){
-                        //Log error
-                        //Console.WriteLine("Error: {0}", e);
+                    catch(FormatException){
+                        //If time value is not valid 
+                        Console.WriteLine("Error: invalid Time value");
                     }
 
                 }
-
-                //TimeSpan currentGMT = DateTime.Now.TimeOfDay;
-                //TimeSpan trimmedGMT = new TimeSpan(currentGMT.Hours, currentGMT.Minutes, currentGMT.Seconds);
 
             }
 

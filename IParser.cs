@@ -8,6 +8,7 @@ namespace Timezone
 {
     interface IParser
     {
-        void DisplayTime(string time, string timezone);
+        //Altered method signature to include converted_time 
+        void DisplayTime(string time, string timezone, string converted_time);
     }
 }
