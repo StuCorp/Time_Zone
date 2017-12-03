@@ -1,0 +1,14 @@
+/Users/stuartbryce/codeclan_work/personal_party/Timezone-master/Timezone/Timezone.Test/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/stuartbryce/codeclan_work/personal_party/Timezone-master/Timezone/Timezone.Test/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/stuartbryce/codeclan_work/personal_party/Timezone-master/Timezone/Timezone.Test/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/stuartbryce/codeclan_work/personal_party/Timezone-master/Timezone/Timezone.Test/bin/Debug/netcoreapp2.0/Timezone.Test.deps.json
+/Users/stuartbryce/codeclan_work/personal_party/Timezone-master/Timezone/Timezone.Test/bin/Debug/netcoreapp2.0/Timezone.Test.runtimeconfig.json
+/Users/stuartbryce/codeclan_work/personal_party/Timezone-master/Timezone/Timezone.Test/bin/Debug/netcoreapp2.0/Timezone.Test.runtimeconfig.dev.json
+/Users/stuartbryce/codeclan_work/personal_party/Timezone-master/Timezone/Timezone.Test/bin/Debug/netcoreapp2.0/Timezone.Test.dll
+/Users/stuartbryce/codeclan_work/personal_party/Timezone-master/Timezone/Timezone.Test/bin/Debug/netcoreapp2.0/Timezone.Test.pdb
+/Users/stuartbryce/codeclan_work/personal_party/Timezone-master/Timezone/Timezone.Test/obj/Debug/netcoreapp2.0/Timezone.Test.csprojResolveAssemblyReference.cache
+/Users/stuartbryce/codeclan_work/personal_party/Timezone-master/Timezone/Timezone.Test/obj/Debug/netcoreapp2.0/Timezone.Test.csproj.CoreCompileInputs.cache
+/Users/stuartbryce/codeclan_work/personal_party/Timezone-master/Timezone/Timezone.Test/obj/Debug/netcoreapp2.0/Timezone.Test.AssemblyInfoInputs.cache
+/Users/stuartbryce/codeclan_work/personal_party/Timezone-master/Timezone/Timezone.Test/obj/Debug/netcoreapp2.0/Timezone.Test.AssemblyInfo.cs
+/Users/stuartbryce/codeclan_work/personal_party/Timezone-master/Timezone/Timezone.Test/obj/Debug/netcoreapp2.0/Timezone.Test.dll
+/Users/stuartbryce/codeclan_work/personal_party/Timezone-master/Timezone/Timezone.Test/obj/Debug/netcoreapp2.0/Timezone.Test.pdb

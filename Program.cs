@@ -30,7 +30,7 @@ namespace Timezone
                         if (timeZoneInfo != null)
                         {
                             DateTime time = DateTime.Parse(entry.Item1);
-                            String converted_time = Convert.ToString(TimeZoneInfo.ConvertTimeFromUtc(time, timeZoneInfo));
+                            String converted_time = (TimeZoneInfo.ConvertTimeFromUtc(time, timeZoneInfo)).ToString("HH:mm");
                             //Print info to console
                             timeZoneParser.DisplayTime(entry.Item1, entry.Item2, converted_time);
                         }

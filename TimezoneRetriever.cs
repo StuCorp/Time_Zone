@@ -10,10 +10,10 @@ namespace Timezone
            //Retrieve the timezone data
             ReadOnlyCollection<TimeZoneInfo> zones = TimeZoneInfo.GetSystemTimeZones();
 
+            //Set default timezone to be returned to null
             TimeZoneInfo timeZoneInfo = null;
 
-            //Loop through timeszones until find our timezone
-            //Return offset for timezone
+            //Loop through timeszones until finding our 
             foreach (TimeZoneInfo zone in zones)
             {
                 if (zone.Id.Contains(timezone))

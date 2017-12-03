@@ -6,4 +6,3 @@ NA Dublin
 10:00 Hawaii
 20:00 Alaska
 05:02 Arizona
-01:14 Globall

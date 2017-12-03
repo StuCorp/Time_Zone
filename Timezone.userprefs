@@ -1,13 +1,21 @@
 ﻿<Properties StartupConfiguration="{9AD31B2C-C6B3-42B0-AB97-B3462483BEBA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TimezoneRetriever.cs">
     <Files>
       <File FileName="Reader.cs" Line="25" Column="10" />
-      <File FileName="TimezoneRetriever.cs" Line="7" Column="6" />
-      <File FileName="Program.cs" Line="39" Column="31" />
-      <File FileName="Parser.cs" Line="13" Column="65" />
+      <File FileName="TimezoneRetriever.cs" Line="2" Column="37" />
+      <File FileName="Program.cs" Line="26" Column="44" />
+      <File FileName="Parser.cs" Line="19" Column="49" />
       <File FileName="IReader.cs" Line="10" Column="6" />
-      <File FileName="IParser.cs" Line="11" Column="77" />
+      <File FileName="IParser.cs" Line="10" Column="6" />
+      <File FileName="Timezone.txt" Line="9" Column="14" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
