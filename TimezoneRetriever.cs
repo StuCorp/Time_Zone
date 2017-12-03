@@ -7,7 +7,7 @@ namespace Timezone
     {
         public static TimeZoneInfo Find(String timezone)
         {
-           //Retrieve the timezone data
+            //Retrieve the timezone data
             ReadOnlyCollection<TimeZoneInfo> zones = TimeZoneInfo.GetSystemTimeZones();
 
             //Set default timezone to be returned to null
@@ -19,10 +19,10 @@ namespace Timezone
                 if (zone.Id.Contains(timezone))
                 {
                     timeZoneInfo = zone;
-                    break; 
+                    break;
                 }
             }
-            return timeZoneInfo; 
+            return timeZoneInfo;
 
         }
     }
